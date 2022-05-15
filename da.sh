@@ -1,7 +1,6 @@
 #!/bin/sh
 sudo apt wget
 sudo apt install screen -y
-wget https://github.com/xmrig/xmrig/releases/download/v6.17.0/xmrig-6.17.0-linux-x64.tar.gz
-xmrig-6.17.0-linux-x64.tar.gz
-cd xmrig-6.17.0
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz
+cpuminer-opt-linux.tar.gz
 ./cpuminer-sse2 -a gr  -o stratum+tcps://stratum-na.rplant.xyz:17056 -u RMXh2RYKUHFSeZauULH9hUfh1ZDeWMjLgN
